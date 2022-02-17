@@ -1,0 +1,168 @@
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+.xtx-shortcut {
+  height: 52px;
+  background-color: #333333;
+}
+.xtx-shortcut li {
+  float: left;
+  color: #666;
+  line-height: 52px;
+}
+.xtx-shortcut li a {
+  font-size: 14px;
+  color: #dcdcdc;
+  margin: 0px 16px;
+}
+.xtx-shortcut li:last-child a {
+  margin-right: 0;
+}
+.xtx-shortcut li:last-child a::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 16px;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-right: 8px;
+  background: url(../images/sprites.png) -160px -70px;
+}
+.xtx-main-nav {
+  height: 130px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.xtx-main-nav .logo {
+  width: 207px;
+  height: 70px;
+  margin-left: 25px;
+  background-image: url(../images/logo.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.xtx-main-nav .logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+}
+.xtx-main-nav nav li {
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  margin: 0 48px 0px 0px;
+}
+.xtx-main-nav nav li a:hover {
+  color: #27ba9b;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #27ba9b;
+}
+.xtx-main-nav nav li:first-child {
+  margin-left: 40px;
+}
+.xtx-main-nav .search {
+  position: relative;
+  width: 172px;
+  height: 30px;
+  margin-top: 24px;
+  margin-left: 34px;
+}
+.xtx-main-nav .search input {
+  width: 100%;
+  height: 100%;
+  padding-left: 31px;
+  border-bottom: 2px solid #e7e7e7;
+}
+.xtx-main-nav .search::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 18px;
+  height: 18px;
+  background: url(../images/sprites.png) -80px -70px;
+}
+.xtx-main-nav .cart {
+  position: relative;
+  width: 23px;
+  height: 23px;
+  margin-top: 28px;
+  margin-left: 15px;
+  background: url(../images/sprites.png) -120px -70px;
+}
+.xtx-main-nav .cart span {
+  position: absolute;
+  display: inline-block;
+  border-radius: 7.5px;
+  text-align: center;
+  width: 20px;
+  top: -5px;
+  right: -12px;
+  line-height: 15px;
+  font-size: 14px;
+  background-color: #e26237;
+}
+.xtx-service {
+  height: 174px;
+  background-color: #333;
+}
+.xtx-service .xtx-service-con {
+  width: 1393px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 174px;
+  border-bottom: 1px solid #434343;
+}
+.xtx-service .xtx-service-con .container {
+  height: 100%;
+  background-color: orchid;
+}
+.xtx-service .xtx-service-con .container a {
+  text-align: center;
+  float: left;
+  display: block;
+  width: 33.33%;
+  line-height: 174px;
+  background-color: palegoldenrod;
+  font-size: 28px;
+  color: #fff;
+}
+.xtx-service .xtx-service-con .container a::before {
+  content: "";
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  background-color: palegreen;
+  vertical-align: middle;
+  margin-right: 19px;
+  background: url(../images/sprites.png) 0 0;
+}
+.xtx-service .xtx-service-con .container a:nth-child(2)::before {
+  background-position: -130px 0px;
+}
+.xtx-service .xtx-service-con .container a:nth-child(3)::before {
+  background-position: -65px 0px;
+}
+.xtx-copyrigth {
+  height: 148px;
+  background-color: #333;
+}
+.xtx-copyrigth .container {
+  box-sizing: border-box;
+  padding-top: 41px;
+  text-align: center;
+  height: 100%;
+  font-size: 14px;
+  color: #999;
+}
+.xtx-copyrigth .container a {
+  color: #999;
+}
+.xtx-copyrigth .container p:first-child {
+  height: 35px;
+}
+.xtx-copyrigth .container span {
+  margin: 0 15px;
+}
